@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Joanchen</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon (1).ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"/>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="css/images/cloud.png" alt="cloud-img" />
+      <h1>I'm Joan</h1>
+      <h2>A <span class="pro">Pro</span>grammer</h2>
+      <img class="bottom-cloud" src="css/images/cloud.png" alt="cloud-img" />
+      <img src="css/images/mountain.png" alt="mountain-img" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          class="joanchen-img"
+          src="css/images/pasfoto.png"
+          alt="joanchen-img"
+          width="300px"
+        />
+        <h2>Hello.</h2>
+        <p class="intro" ">
+          Nama saya Joanchen. Saya adalah seorang mahasiswa di Universitas Mahkota Tricom Unggul, saat ini merupakan mahasiswa Bisnis Digital Semester 1. Saya adalah lulusan dari SMA Cinta Budaya. Saya sangat tertarik dalam coding terutama dalam bidang Data Analyst. Saat ini saya sedang belajar di Udemy untuk menjadi FullStack Developer sekaligus memeperdalam ilmu saya dalam bidang Data Analyst.
+        <h2>Kemampuan.</h2>
+        <!-- outer wrapper -->
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            margin: 0 auto;
+          "
+        >
+          <div
+            style="
+              display: flex;
+              width: 100%;
+              flex-wrap: wrap;
+              margin-bottom: 10%;
+            "
+          >
+            <!-- image stranger things -->
+            <div style="flex-basis: 30%">
+              <img width="70%"
+                src="css/images/gambar berbicara-fotor-20230928134619.png"
+                alt="orang-berbicara"
+              />
+            </div>
+
+            <!-- description about strnafger styring -->
+            <div style="text-align: left; flex-basis: 70%">
+              <h3>Bahasa.</h3>
+              <p>
+                Saya mampu berbicara dan menulis dalam Bahasa Indonesia dan Inggris. Saya juga mampu berbicara dalam Bahasa Mandarin dan Hokkien.
+              </p>
+            </div>
+          </div>
+
+          <div
+            style="
+              display: flex;
+              flex-direction: row-reverse;
+              width: 100%;
+              flex-wrap: wrap;
+            "
+          >
+            <!--  -->
+            <div style="flex-basis: 30%">
+              <img width ="70%"
+                src="css/images/codink-fotor-20230928141344.png"
+                alt="coding-img"
+              />
+            </div>
+
+            <!--  -->
+            <div style="text-align: right; flex-basis: 70%">
+              <h3>IT programming.</h3>
+              <p>
+                Saya mampu menggunakan HTML, CSS, Javascript, Phyton dan MySql.
+                Saya juga mampu menggunakan Microsoft Office seperti Microsoft Word, Microsoft Excel, dan Microsoft Powerpoint.
+                Saya juga mampu memecahkan masalah dan menganalisa data. dan saya dapat bekerjasama dalam tim maupun individu
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Saya sangat tertarik untuk bekerja di perusahaan bapak. Saya berharap dapat bekerja di perusahaan bapak dan mendapat lebih banyak pengalaman lagi. Saya juga berharap dapat memperdalam ilmu saya dalam bidang Data Analyst Dan programming</h3>
+        <p class="contact-massage">
+          Berikut adalah kontak saya apabila Bapak/Ibu ingin menghubungi saya
+        </p>
+        <a class="btn btn-primary" href="mailto:joanchen654@gmail.com">Contact Me</a>
+        <a href="mailto:joanchen654@gmail.com">
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a
+        class="icon"
+        href="https://instagram.com/joaannn_?igshid=ZDdkNTZiNTM="
+      >
+        <span><i style="font-size: 32px" class="fab fa-instagram"></i></span>
+      </a>
+
+      <a
+        class="icon"
+        href="https://www.snapchat.com/add/joejowann?share_id=VtN4Np44VaY&locale=en-US"
+      >
+        <span><i style="font-size: 32px;" class="fab fa-snapchat"></i></span>
+      </a>
+
+      <a class="icon" href="http://tiktok.com/@joedumps">
+        <span><i style="font-size: 32px;" class="fab fa-tiktok"></i></span>
+      </a>
+
+      <button onclick="SayHallo()">Click It</button>
+      <script>
+        function SayHallo() {
+          var name = prompt("What is your name?");
+          alert("Hallo " + name);
+        }
+      </script>
+      <p>©2023 Joanchen.</p>
+    </div>
+  </body>
+</html>
